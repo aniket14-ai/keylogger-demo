@@ -1,0 +1,50 @@
+body {
+    background-color: #0f0f0f;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #00ff00;
+    background-color: #1e1e1e;
+    width: 320px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #00ff00;
+    color: #1e1e1e;
+}
+
+.console, .message, .terminal {
+    margin-top: 20px;
+    background-color: #1e1e1e;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+pre {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #00ff00;
+}
+
+h1, h2 {
+    font-size: 1.5rem;
+    color: #00ff00;
+}
